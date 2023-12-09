@@ -22,7 +22,7 @@ The G-codes taken into consideration are:
 11. G54 --> coordinate system
 12. G64 --> specify tolerance (P)
 
-Note: Since machine configuration, kinematics and control systems are unknown, I will be assuming the G00 command to be the same as G01 command, i.e. a straight line motion.
+Note: Since machine configuration, kinematics and control systems are unknown, I will be assuming the G00 command to be the same as G01 command, i.e. a straight line motion. (Not that it would matter anyway, since G00 is for positioning) 
 
 The M-codes and letter codes taken into consideration are:
 1. M0 --> pause machine
