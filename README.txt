@@ -34,7 +34,7 @@ The M-codes and letter codes taken into consideration are:
 7. N --> line number
 8. I --> radius specification for a circle
 
-The libraries used in python are turtle and math. Note, for the code to run, you need the turtle library.
+The libraries used in python are turtle, re (regular expressions) and math. Note, for the code to run, you need the turtle library.
 To install turtle use:
 
   $pip install turtle
