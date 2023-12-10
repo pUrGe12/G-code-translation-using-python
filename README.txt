@@ -9,7 +9,7 @@ Preassumtions:
 3. G64 --> continous path mode (tolerance may be specified)
 
 The G-codes taken into consideration are:
-1. G00 --> rapid move from (x,y) to (x+x0, y+y0), may not be a straight line motion
+1. G00 --> rapid move from (x,y) to (x+x0, y+y0), may not be a straight line motion (goto specific position while not sketching)
 2. G01 --> controlled move from (x,y) to (x+x0, y+y0), straight line motion
 3. G02 --> clockwise curve
 4. G03 --> anti-clockwise curve
