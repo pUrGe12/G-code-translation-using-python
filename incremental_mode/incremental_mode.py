@@ -82,6 +82,18 @@ def incremental(codes):
                 elif i[1].startswith('Y'):
                     turtle.left(90)
                     turtle.forward(standard_scale(i[1][1:]))
+            if i[0] == 'G1' or i[0] == 'G01':
+                turtle.pendown()
+                if i[1].startswith('X-'):
+                    turtle.back(standard_scale(i[1][1:]))
+                elif i[1].startswith('X'):
+                    turtle.forward(standard_scale(i[1][1:]))
+                elif i[1].startswith('Y-'):
+                    turtle.right(90)
+                    turtle.forward(standard_scale(i[1][1:]))
+                elif i[1].startswith('Y'):
+                    turtle.left(90)
+                    turtle.forward(standard_scale(i[1][1:]))
 
 
 def turtle_set_up(codes):
@@ -108,6 +120,3 @@ def turtle_set_up(codes):
     screen.exitonclick()
 
 turtle_set_up(codes)
-
-
-
