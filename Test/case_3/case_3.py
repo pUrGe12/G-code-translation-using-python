@@ -1,4 +1,4 @@
-# this code is to scrape the G-code for boltpattern
+# this code is to scrape the G-code for Circualar pocket pattern
  
 import requests
 from bs4 import BeautifulSoup
